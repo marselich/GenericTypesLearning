@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03d8246c-9696-4164-a3f7-430011a71be2" name="Changes" comment="refactored T to the interface lvl and added on class support">
-      <change afterPath="$PROJECT_DIR$/src/ru/sinergy/genericmethods/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/sinergy/genericmethods/Printer.java" afterDir="false" />
+    <list default="true" id="03d8246c-9696-4164-a3f7-430011a71be2" name="Changes" comment="method only generic implementation">
+      <change beforePath="$PROJECT_DIR$/src/ru/sinergy/customgenerictypes/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/sinergy/customgenerictypes/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/sinergy/customgenerictypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/sinergy/customgenerictypes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/sinergy/genericmethods/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/sinergy/genericmethods/Printer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656676206830</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="method only generic implementation">
+      <created>1656677575611</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656677575611</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +205,7 @@
     <MESSAGE value="refactored to Generic Class" />
     <MESSAGE value="refactored T to the interface lvl" />
     <MESSAGE value="refactored T to the interface lvl and added on class support" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored T to the interface lvl and added on class support" />
+    <MESSAGE value="method only generic implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="method only generic implementation" />
   </component>
 </project>
