@@ -1,5 +1,6 @@
 package ru.sinergy;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -16,14 +17,28 @@ public class Main {
 //        Object o1 = new String();
 //        Object o2 = new Integer(14);
 
-    Object[] objects = {10, "Привет", 3.14}; //здесь происходит автоупаковка
+        Object[] objects = {10, "Привет", 3.14}; //здесь происходит автоупаковка
 
-    for(Object o: objects) {
-        if(o instanceof String) {
-            String s = (String) o;
-            System.out.println(s);
+        for (Object o : objects) {
+            if (o instanceof String) {
+                String s = (String) o;
+                System.out.println(s);
+            }
         }
-    }
+
+
+        ArrayList numbers = new ArrayList(); // сохраняет Object
+
+        for (int i = 0; i < 10; i++) {
+            numbers.add(i + 10);
+//            numbers.add(i + 10.2f);
+        }
+
+        int sum = 0;
+        for (Object o : numbers) {
+            sum += (Integer) o;
+        }
+        System.out.println(sum);
 
 
     }
