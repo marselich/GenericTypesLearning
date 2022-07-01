@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03d8246c-9696-4164-a3f7-430011a71be2" name="Changes" comment="finished with example of cast failure in ArrayList">
+    <list default="true" id="03d8246c-9696-4164-a3f7-430011a71be2" name="Changes" comment="refactored list to Integer generic type">
       <change beforePath="$PROJECT_DIR$/src/ru/sinergy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/sinergy/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656674371027</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactored list to Integer generic type">
+      <created>1656674555597</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656674555597</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +111,7 @@
     <MESSAGE value="first example of type casting" />
     <MESSAGE value="finished with instanceof" />
     <MESSAGE value="finished with example of cast failure in ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished with example of cast failure in ArrayList" />
+    <MESSAGE value="refactored list to Integer generic type" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored list to Integer generic type" />
   </component>
 </project>
