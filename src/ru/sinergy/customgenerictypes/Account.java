@@ -1,15 +1,15 @@
 package ru.sinergy.customgenerictypes;
 
-public class Account<T> {
-    private T id;
+public class Account implements Accountable<String> {
+    private String id;
     private int sum;
 
-    public Account(T id, int sum) {
+    public Account(String id, int sum) {
         this.id = id;
         this.sum = sum;
     }
 
-    public T getId() {
+    public String getId() {
         return id;
     }
 
@@ -17,7 +17,7 @@ public class Account<T> {
         return sum;
     }
 
-    public void setId(T id) {
+    public void setId(String id) {
         this.id = id;
     }
 
