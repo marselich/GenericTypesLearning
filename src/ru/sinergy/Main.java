@@ -27,7 +27,7 @@ public class Main {
         }
 
 
-        ArrayList numbers = new ArrayList(); // сохраняет Object
+        ArrayList<Integer> numbers = new ArrayList(); // сохраняет Object
 
         for (int i = 0; i < 10; i++) {
             numbers.add(i + 10);
@@ -35,10 +35,13 @@ public class Main {
         }
 
         int sum = 0;
-        for (Object o : numbers) {
-            sum += (Integer) o;
+        for (Integer o : numbers) {
+            sum += /*(Integer)*/ o;
         }
         System.out.println(sum);
+
+
+        // Основной тип<Тип параметра>
 
 
     }
