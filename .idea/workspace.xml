@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03d8246c-9696-4164-a3f7-430011a71be2" name="Changes" comment="refactored list to Integer generic type">
-      <change beforePath="$PROJECT_DIR$/src/ru/sinergy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/sinergy/Main.java" afterDir="false" />
+    <list default="true" id="03d8246c-9696-4164-a3f7-430011a71be2" name="Changes" comment="added starter point for generic types">
+      <change afterPath="$PROJECT_DIR$/src/ru/sinergy/customgenerictypes/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/sinergy/customgenerictypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/sinergy/customgenerictypes/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,7 +36,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ru.sinergy.customgenerictypes.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.sinergy.Main" />
       <module name="GenericTypesLearning" />
@@ -42,8 +50,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.sinergy.customgenerictypes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.sinergy.customgenerictypes.Main" />
+      <module name="GenericTypesLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sinergy.customgenerictypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.sinergy.customgenerictypes.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -92,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656674555597</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="generic types with deep 2">
+      <created>1656675136851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656675136851</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added starter point for generic types">
+      <created>1656675213282</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656675213282</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +148,8 @@
     <MESSAGE value="finished with instanceof" />
     <MESSAGE value="finished with example of cast failure in ArrayList" />
     <MESSAGE value="refactored list to Integer generic type" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored list to Integer generic type" />
+    <MESSAGE value="generic types with deep 2" />
+    <MESSAGE value="added starter point for generic types" />
+    <option name="LAST_COMMIT_MESSAGE" value="added starter point for generic types" />
   </component>
 </project>
