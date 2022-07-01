@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03d8246c-9696-4164-a3f7-430011a71be2" name="Changes" comment="refactored T to the interface lvl">
-      <change beforePath="$PROJECT_DIR$/src/ru/sinergy/customgenerictypes/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/sinergy/customgenerictypes/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/sinergy/customgenerictypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/sinergy/customgenerictypes/Main.java" afterDir="false" />
+    <list default="true" id="03d8246c-9696-4164-a3f7-430011a71be2" name="Changes" comment="refactored T to the interface lvl and added on class support">
+      <change afterPath="$PROJECT_DIR$/src/ru/sinergy/genericmethods/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/sinergy/genericmethods/Printer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,7 +37,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ru.sinergy.customgenerictypes.Main">
+  <component name="RunManager" selected="Application.ru.sinergy.genericmethods.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.sinergy.Main" />
       <module name="GenericTypesLearning" />
@@ -64,8 +64,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.sinergy.genericmethods.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.sinergy.genericmethods.Main" />
+      <module name="GenericTypesLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sinergy.genericmethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.sinergy.genericmethods.Main" />
         <item itemvalue="Application.ru.sinergy.customgenerictypes.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -150,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656676112616</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactored T to the interface lvl and added on class support">
+      <created>1656676206830</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656676206830</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +196,7 @@
     <MESSAGE value="example of not working object cast" />
     <MESSAGE value="refactored to Generic Class" />
     <MESSAGE value="refactored T to the interface lvl" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored T to the interface lvl" />
+    <MESSAGE value="refactored T to the interface lvl and added on class support" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored T to the interface lvl and added on class support" />
   </component>
 </project>
